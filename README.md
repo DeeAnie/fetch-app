@@ -1,4 +1,4 @@
-# fetch-app
+# [fetch-app](https://dianazhusupbek.github.io/fetch-app/)
 - **Описание задания**
     
     У вас имеется JSON файл содержащий массив товаров:
