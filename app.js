@@ -9,7 +9,6 @@ function cards() {
         const ul = document.createElement("ul");
         const li = document.createElement("li");
         const img = document.createElement("img");
-        const hr = document.createElement("hr");
         const p = document.createElement("h3");
         const price = document.createElement("h4");
         const desc = document.createElement("h5");
@@ -24,7 +23,6 @@ function cards() {
         li.append(img);
         li.append(p);
         li.append(price);
-        li.append(hr);
         li.append(desc);
       });
     })
