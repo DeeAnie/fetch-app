@@ -8,7 +8,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: rgb(116, 173, 248);
+  background: rgb(225, 219, 236);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -38,6 +38,7 @@ h3 {
 h5 {
   font-weight: 500;
   font-size: 16px;
+  text-align: left;
 }
 
 ul {
@@ -48,11 +49,20 @@ ul {
   padding: 20px 40px;
   list-style: none;
   background: rgb(255, 255, 255);
+  -webkit-box-shadow: 12px -5px 15px 5px #80c7ff, 12px 10px 15px 7px #e488ff,
+    -10px -7px 27px 1px #8e5cff, -50px -50px 0px -30px rgba(255, 71, 71, 0);
+  box-shadow: 12px -5px 15px 5px #80c7ff, 12px 10px 15px 7px #e488ff,
+    -10px -7px 27px 1px #8e5cff, -50px -50px 0px -30px rgba(255, 71, 71, 0);
   border-radius: 10px;
 }
 
+li {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 img {
-  margin-left: 20%;
   background-size: contain;
   height: 300px;
 }
