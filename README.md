@@ -1,13 +1,11 @@
 # [fetch-app](https://dianazhusupbek.github.io/fetch-app/)
 <details>
     <summary>Task 15</summary>
-# [fetch-app](https://dianazhusupbek.github.io/fetch-app/)
-- **Описание задания**
+Описание задания
     
     У вас имеется JSON файл содержащий массив товаров:
     
-    ```json
-    [
+    ```[
       {
         "id": 1,
         "title": "Ноутбук Sony Vaio VPC-YB2L1R AMD Fusion E-350",
@@ -40,8 +38,8 @@
     3. Карточкам товара добавлены стили и карточки смотрятся лучше чем на картинке выше 😊 – 5 баллов
 
 </details>
-<details>
-    <summary>Task 16</summary>
+
+## Задание 16
 - **Описание задания**
     - Fake база товаров
         
@@ -85,9 +83,13 @@
     
     Доработать проект по выводу товаров, добавив функционал по фильтрации товаров
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d97fc406-e33c-464c-a062-a856db8dd973/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/88156532/160194564-c5b358fd-38d7-45eb-a053-013167c5ec49.png)
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d147a9ea-70d8-4951-a960-7432231fe150/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/88156532/160194577-298237ce-d9cc-44f5-b62b-33d1bc51ac71.png)
     
 - **Критерии оценки для cross-check**
-</details>
+    
+    Максимальный балл: 20
+    
+    1. Проект опубликован в github - 10 баллов
+    2. Json файл обработан через fetch API - 10 баллов
