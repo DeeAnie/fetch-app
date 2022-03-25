@@ -46,7 +46,7 @@ h5 {
 }
 
 ul {
-  display: block;
+  /* display: block; */
   width: 480px;
   height: 650px;
   margin: 15px;
@@ -69,4 +69,26 @@ li {
 img {
   background-size: contain;
   height: 300px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+button {
+  min-width: 10%;
+  padding: 20px 0;
+  margin: 20px;
+  border: 2px solid #8e5cff;
+  border-radius: 10px;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #af8dff;
+  cursor: pointer;
+  font-weight: 700;
 }

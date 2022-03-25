@@ -7,7 +7,6 @@ function cards() {
       product.forEach((e) => {
         const card = document.querySelector(".card");
         const products = document.createElement("div");
-        products.className = "products";
         const ul = document.createElement("ul");
         const li = document.createElement("li");
         const img = document.createElement("img");
@@ -29,20 +28,28 @@ function cards() {
         li.append(desc);
 
         const btnAll = document.querySelector(".btn-all");
-        const btnLaptops = document.querySelector(".btn-laptops");
-        const btnPhones = document.querySelector(".btn-phones");
+        const btnLaptop = document.querySelector(".btn-laptops");
+        const btnPhone = document.querySelector(".btn-phones");
         const btnTv = document.querySelector(".btn-tv");
 
-        btnLaptops.addEventListener("click", () => {
-          if (product.category === "laptops") {
+        btnAll.addEventListener("click", () => {
+          if (e.category === "") {
+            products.style.display = "none";
+          } else {
+            products.style.display = "block";
+          }
+        });
+
+        btnLaptop.addEventListener("click", () => {
+          if (e.category === "laptops") {
             products.style.display = "block";
           } else {
             products.style.display = "none";
           }
         });
 
-        btnPhones.addEventListener("click", () => {
-          if (product.category === "phones") {
+        btnPhone.addEventListener("click", () => {
+          if (e.category === "phones") {
             products.style.display = "block";
           } else {
             products.style.display = "none";
@@ -50,18 +57,10 @@ function cards() {
         });
 
         btnTv.addEventListener("click", () => {
-          if (product.category === "tv") {
+          if (e.category === "tv") {
             products.style.display = "block";
           } else {
             products.style.display = "none";
-          }
-        });
-
-        btnAll.addEventListener("click", () => {
-          if (product.category === "") {
-            products.style.display = "none";
-          } else {
-            products.style.display = "block";
           }
         });
       });
