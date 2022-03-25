@@ -1,4 +1,4 @@
-# [fetch-app](https://dianazhusupbek.github.io/fetch-app/) - Ссылка пока не работает
+# [fetch-app](https://dianazhusupbek.github.io/fetch-app/)
 <details>
     <summary>Task 15</summary>
 Описание задания
