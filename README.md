@@ -1,4 +1,4 @@
-# [fetch-app](https://dianazhusupbek.github.io/fetch-app/)
+# [fetch-app](https://dianazhusupbek.github.io/fetch-app/) - не работает
 <details>
     <summary>Task 15</summary>
 # [fetch-app](https://dianazhusupbek.github.io/fetch-app/)
